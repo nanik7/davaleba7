@@ -42,3 +42,56 @@ header{
     height: 90px;
     color: #fdf50e;
 }
+h2{
+    font-size: 28px;
+    margin-bottom: 70px;
+    margin-top: 155px;
+}
+.cards{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.card{
+    background-color: #ffffff;
+    padding: 30px 30px 35px 30px;
+    width: 277px;
+    height: 467px;
+}
+.box{
+    margin-top: 111px;
+    margin-bottom: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+.cart{
+    display: flex;
+    justify-content: space-between;
+}
+.lgrey{
+    background-color: #e7e7e7;
+    display: inline-block;
+    width: 105px;
+    height: 35px;
+    text-align: center;
+    
+}
+.grey{
+    background-color: #e7e7e7;
+    display: inline-block;
+    width: 105px;
+    height: 35px;
+    text-align: center;
+}
+.red{
+    color: red;
+    display: inline-block;
+    font-size: 24px;
+}
+.green{
+    color: #74b42c;
+    display: inline-block;
+}
+p{
+    font-size: 24px;
+}
