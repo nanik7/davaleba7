@@ -1,0 +1,19 @@
+.container{
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+/* HEADERI */
+header{
+    width: 100%;
+    padding: 40px 160px 40px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons{
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+}
