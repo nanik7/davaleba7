@@ -42,6 +42,10 @@ header{
     height: 90px;
     color: #fdf50e;
 }
+/* დასრულდა სექცია 1 */
+.section2{
+    width: 90%;
+}
 h2{
     font-size: 28px;
     margin-bottom: 70px;
@@ -94,4 +98,19 @@ h2{
 }
 p{
     font-size: 24px;
+}
+footer{
+    margin-top: 175px;
+    width: 90%;
+
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.p2{
+    font-size: 14px;
+    color: #111111;
+    display: block;
 }
