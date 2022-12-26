@@ -2,18 +2,43 @@
     max-width: 1366px;
     width: 100%;
     margin: 0 auto;
-    background-color: #ffffff;
+    position: relative;
+    background-color: #f8f8f8;
 }
 /* HEADERI */
 header{
-    width: 100%;
+    margin-bottom: 70px;
     padding: 40px 160px 40px 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    max-width: inherit;
+    width: inherit;
+    border-radius: 0 0 20% 20%;
+    background-color: #ffffff;
 }
 .icons{
     width: 150px;
     display: flex;
     justify-content: space-around;
+}
+.section1{
+    margin: 0 auto;
+    width: 90%;
+    height: 716px;
+    /* position: relative; */
+}
+.photo1{
+    width: 100%;
+    height: 100%;
+    /* position: relative; */
+}
+.p1{
+    font-size: 24px;
+    position: absolute;
+    transform: translate(125%,-400%);
+    width: 350px;
+    height: 90px;
+    color: #fdf50e;
 }
